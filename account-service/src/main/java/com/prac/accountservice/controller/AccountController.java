@@ -18,7 +18,7 @@ import com.prac.accountservice.service.AccountService;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
-@RequestMapping("/account-service/accounts")
+@RequestMapping("account-service/accounts")
 public class AccountController {
 
 	@Autowired

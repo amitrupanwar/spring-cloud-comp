@@ -6,7 +6,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@RefreshScope
 @EnableAspectJAutoProxy
 public class AddressServiceApplication {
 
