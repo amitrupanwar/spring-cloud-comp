@@ -9,5 +9,5 @@ public interface AccountServiceClient {
 
 	@GetMapping("account-service/hello/message")
 	public String hello();
-
+	
 }

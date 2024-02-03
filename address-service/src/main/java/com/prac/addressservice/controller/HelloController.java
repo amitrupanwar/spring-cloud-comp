@@ -16,9 +16,6 @@ public class HelloController {
 	@Value("${hello.message}")
 	private String helloMessage;
 
-	@Value("${server.port}")
-	private int serverPort;
-
 	@GetMapping("/hello/message")
 	public String hello(HttpServletRequest request) {
 		return this.helloMessage + " from Address service with port " + request.getLocalPort();
